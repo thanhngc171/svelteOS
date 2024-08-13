@@ -1,0 +1,72 @@
+@import './fonts';
+
+:root {
+	// Theme colors
+	--primary-color: #376ae2;
+	--primary-color-dark: #011745;
+	--primary-color-light: #bde3ff;
+	--primary-color-extra-light: #ebf3fb;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-gray-01: #fbfbfb;
+	--color-gray-02: #f6f6f6;
+	--color-gray-03: #e1e1e1;
+	--color-gray-04: #a8a8a8;
+	--color-gray-05: #707070;
+	--color-blue-01: #1482fa;
+	--color-blue-02: #cce5ff;
+	--color-red-01: #dc3545;
+	--color-red-02: #f8d7da;
+	--color-green-01: #28a745;
+	--color-green-02: #d4edda;
+	--color-yellow-01: #ffc107;
+	--color-yellow-02: #fff3cd;
+	--color-purple-01: #8d64d3;
+
+	// left-Menu colors
+	--menu-bg-color: #022366;
+
+	// Named colors
+	--text-color: var(--color-black);
+	--text-color-inverse: var(--color-white);
+	--background-white: var(--color-white);
+	--background-gray-light: var(--color-gray-01);
+	--background-gray: var(--color-gray-02);
+	--border-color: var(--color-gray-03);
+	--disabled-color: var(--color-gray-04);
+	--icon-color-light: var(--color-gray-04);
+	--icon-color: var(--color-gray-05);
+	--background-update-time-01: #b6eac3;
+	--background-update-time-02: #d6f3dd;
+
+	// Fonts
+	--font-regular: 'Roboto Regular', Arial, sans-serif;
+	--font-regular-italic: 'Roboto Regular Italic', Arial, sans-serif;
+	--font-semibold: 'Roboto SemiBold', Arial, sans-serif;
+	--font-semibold-italic: 'Roboto SemiBold Italic', Arial, sans-serif;
+	--font-bold: 'Roboto Bold', Arial, sans-serif;
+	--font-bold-italic: 'Roboto Bold Italic', Arial, sans-serif;
+
+	// Typography
+	--rem-base: 14px;
+	--small-font-size: 0.7857rem;
+	--base-font-size: 0.875rem;
+	--base-letter-spacing: 0.04rem;
+	--h1-font-size: 1.28rem; // 18px
+	--h2-font-size: 1.14rem; // 16px
+	--h3-font-size: 1rem; // 14px
+	--icon-font-size: 1.3rem;
+
+	//ChartColors
+	--chart-color-01: #007bff;
+	--chart-color-02: #37209d;
+	--chart-color-03: #8d64d3;
+	--chart-color-04: #31d5ef;
+	--chart-color-05: #ffa200;
+	--chart-color-06: #cb2323;
+	--chart-color-07: #00c45b;
+	--chart-color-08: #ffdd00;
+	--chart-color-09: #e600c8;
+	--chart-color-10: #ff6da0;
+	--chart-color-disabled: #e1e1e1;
+}
